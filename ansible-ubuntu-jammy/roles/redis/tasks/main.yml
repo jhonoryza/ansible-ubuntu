@@ -1,0 +1,11 @@
+---
+
+- name: Install redis server
+  apt:
+    name:
+      - redis-server
+    state: latest
+    autoclean: yes
+
+- name: Restart redis service
+  service: name=redis-server state=restarted

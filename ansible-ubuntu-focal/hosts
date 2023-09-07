@@ -1,0 +1,8 @@
+[webservers]
+8.219.208.17       ansible_user=root
+
+[dbservers]
+8.219.208.17       ansible_user=root
+
+[cacheservers]
+8.219.208.17       ansible_user=root
